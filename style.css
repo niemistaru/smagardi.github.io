@@ -1,0 +1,282 @@
+.navbar-light .navbar-nav .nav-link {
+  background-color: #011638 !important;
+  color: #cadf9e !important;
+}
+.bg-light {
+  background-color: #011638 !important;
+  color: #cadf9e !important;
+}
+.navbar-nav {
+    text-align: right;
+    padding-right: 5px;
+}
+.navbar-toggler-icon {
+  background-color: #cadf9e !important;
+  border-radius: 4px;
+  margin-right: 10px;
+  height: 40px;
+  width: 45px;
+}
+.active {
+  color: #006e90;
+}
+.row {
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.kuvahommelit {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.marginauto {
+  margin: 10px auto 20px;
+  display: block;
+}
+.hedariotsikko {
+  font-size: 65px;
+  font-family:;
+}
+header {
+  width: 100%;
+  padding: 25px;
+}
+main {
+  background-color: #b8c5d6;
+  color: #011638;
+  width: 75%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'BioRhyme', serif;
+  text-align: left;
+}
+p {
+  font-family: 'Space Mono', monospace;
+}
+.pikkuli {
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  margin-bottom: 14px;
+  text-align: left;
+  color: #b8c5d6;
+  list-style-type: none;
+}
+ul {
+  font-family: 'Space Mono', monospace;
+  text-align: justify;
+}
+li {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+a {
+  color: #b8c5d6;
+}
+a:hover {
+  color: #ffffff;
+}
+footer {
+  background-color: #011638;
+  padding: 20px;
+}
+.footerteksti {
+  text-align: center;
+  color: #b8c5d6;
+  font-size: 12px !important;
+}
+
+
+/*****************************HEDADERI*********************************/
+.hedarifontti {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  border-bottom: 13px solid #011638;
+  letter-spacing: 5px;
+}
+.kuvahedari {
+  background: url(Kuvat/hedari2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  color: #011638;
+  text-align: left;
+  border-bottom: 36px solid #011638;
+}
+
+
+/******************************ETUSIVU******************************/
+
+.pääotsikko {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.etusivualaotsikko {
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.etusivuteksti {
+    margin-left: 30px;
+}
+
+.kehys {
+  border-style: solid;
+  border-width: 4px;
+  border-color: #2e294e;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  background-color: #cadf9e;
+}
+.sivupalkki {
+  float: right;
+  width: 25%;
+  background-color: #2e294e;
+  color: #b8c5d6;
+  padding: 20px;
+}
+.asideotsikko {
+  font-size: 17px;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.asideteksti {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 14px;
+}
+.kirjoi {
+margin-top: 10px;
+margin-left: 15px;
+margin-right: 10px;
+border-radius: 5px;
+}
+
+#page-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+  @media only screen and (max-width: 600px) {
+  	main, .sivupalkki {width: 100%;}
+  }
+
+/******************************KIRJA-ARVIOT******************************/
+
+.ingressi {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.arviokuva {
+  padding: 30px;
+  width: 100%;
+  min-width: 300px;
+  max-width: 450px;
+  border-radius: 3pc;
+  margin-top: 10px;
+}
+.arvio-otsikko {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.arvioteksti {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.ehdokasotsikko {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/******************************SÄÄNNÖT-SIVU******************************/
+
+.sääntökehys {
+  border-style: double;
+  border-width: 5px;
+  border-color: #2e294e;
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+/******************************JÄSENET-SIVU******************************/
+.jäsenmain {
+  width: 100%;
+}
+.korttipohja {
+  background-color: #b8c5d6;
+    padding: 5%;
+}
+.ingressi{
+  text-align: center;
+}
+.card {
+  margin-left: 10%; margin-right: 10%;
+  margin-bottom: 30px; margin-top: 30px;
+  background-color: #2e294e;
+  color: #cadf9e;
+  height: 470px;
+}
+.card-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card-text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.btn-primary {
+  background-color: #006e90;
+  border-color: #006e90;
+}
+.btn-primary:hover{
+  background-color: #b8c5d6;
+}
+/******************************JÄSENHAKEMUS-SIVU******************************/
+
+.lomakeotsikko {
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 45px;
+}
+.lomakeframe {
+  margin-left: 45px;
+
+}
+textarea {
+  background-color: #cadf9e;
+  border-radius: 8px;
+}
+#fname {
+  background-color: #cadf9e;
+  border-radius: 8px;
+}
+#lname {
+  background-color: #cadf9e;
+  border-radius: 8px;
+}
+.submit {
+  background-color: #2e294e;
+  color: #cadf9e;
+  border-radius: 8px;
+}
