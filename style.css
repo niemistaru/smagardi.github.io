@@ -35,10 +35,7 @@
   margin: 10px auto 20px;
   display: block;
 }
-.hedariotsikko {
-  font-size: 65px;
-  font-family:;
-}
+
 header {
   width: 100%;
   padding: 25px;
@@ -110,7 +107,7 @@ footer {
 
 /******************************ETUSIVU******************************/
 
-.pääotsikko {
+.paaotsikko {
   margin-top: 30px;
   margin-bottom: 45px;
   text-align: center;
@@ -205,7 +202,7 @@ border-radius: 5px;
 
 /******************************SÄÄNNÖT-SIVU******************************/
 
-.sääntökehys {
+.saantokehys {
   border-style: double;
   border-width: 5px;
   border-color: #2e294e;
@@ -220,7 +217,7 @@ border-radius: 5px;
 }
 
 /******************************JÄSENET-SIVU******************************/
-.jäsenmain {
+.jasenmain {
   width: 100%;
 }
 .korttipohja {
