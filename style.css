@@ -10,6 +10,9 @@
     text-align: right;
     padding-right: 5px;
 }
+navbar-expand-md .navbar-collapse {
+  justify-content: right;
+}
 .navbar-toggler-icon {
   background-color: #cadf9e !important;
   border-radius: 4px;
