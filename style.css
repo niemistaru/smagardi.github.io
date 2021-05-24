@@ -70,6 +70,7 @@ ul {
 li {
   margin-bottom: 12px;
   text-align: left;
+  font-family: 'Space Mono', monospace;
 }
 
 a {
@@ -267,11 +268,14 @@ textarea {
   background-color: #cadf9e;
   border-radius: 8px;
 }
+label {
+    font-family: 'Space Mono', monospace;
+}
 #fname {
   background-color: #cadf9e;
   border-radius: 8px;
 }
-#lname {
+#email {
   background-color: #cadf9e;
   border-radius: 8px;
 }
