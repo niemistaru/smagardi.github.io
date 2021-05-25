@@ -1,5 +1,4 @@
 .navbar-light .navbar-nav .nav-link {
-  background-color: #011638 !important;
   color: #cadf9e !important;
 }
 .bg-light {
@@ -14,9 +13,6 @@
 .navbar-expand-md .navbar-collapse {
   justify-content: right;
 }
-.nav-item {
-  margin-right: 10px;
-}
 .navbar-toggler-icon {
   background-color: #cadf9e !important;
   border-radius: 4px;
@@ -24,8 +20,12 @@
   height: 40px;
   width: 45px;
 }
-.active {
-  color: #006e90;
+.nav-item {
+  margin-right: 10px;
+}
+.nav-item.active {
+  background-color: #006e90;
+  border-radius: 4px;
 }
 .row {
   padding-bottom: 25px;
