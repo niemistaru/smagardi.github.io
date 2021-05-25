@@ -9,9 +9,13 @@
 .navbar-nav {
     text-align: right;
     padding-right: 5px;
+    margin-left: 10px;
 }
 .navbar-expand-md .navbar-collapse {
   justify-content: right;
+}
+.nav-item {
+  margin-right: 10px;
 }
 .navbar-toggler-icon {
   background-color: #cadf9e !important;
