@@ -63,7 +63,7 @@ p {
   color: #b8c5d6;
   list-style-type: none;
 }
-ul {
+.smaggelista {
   font-family: 'Space Mono', monospace;
   text-align: justify;
 }
